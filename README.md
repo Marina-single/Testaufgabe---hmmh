@@ -1,9 +1,9 @@
 
 ### Requirements:
 
-Angular - npm install -g @angular/cli
+**Angular CLI install**:
 
-### Development server
+`npm install -g @angular/cli`
 
-Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
+### Start server
+ `ng serve --open`
