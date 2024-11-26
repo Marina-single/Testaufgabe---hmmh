@@ -1,0 +1,90 @@
+.footer{
+background-color:var(--primary-color);
+padding-bottom:100px;
+}
+
+.benefits-section{
+  display: flex;
+  gap:110px;
+  justify-content:center;
+  padding-top:20px;
+  flex-wrap: wrap;
+
+}
+
+.parent{
+  display:flex;
+  gap:100px;
+  flex-wrap: wrap;
+  padding: 40px 50px 40px 50px;
+
+}
+
+.social-media-container{
+display:flex;
+justify-content:space-between;
+}
+
+.social-media-links a {
+  color: black;
+  font-size: 20px;
+  text-decoration:none;
+  cursor: pointer;
+  padding-left: 8px;
+}
+
+.parent a {
+  text-decoration:none;
+  display:block;
+  font-size: 16px;
+  padding-top:20px;
+  cursor:pointer;
+}
+
+h5{
+  font-size: 18px;
+}
+
+.e-mail{
+ width: 220px;
+}
+
+.anmelden-button{
+  background-color: blue;
+  color: white;
+  border:none;
+}
+
+.hr-line{
+  border:none;
+  border-top:1px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+  width:100%;
+  margin:0;
+}
+
+
+@media (max-width: 480px) {
+  .benefits-section {
+    gap: 5px;
+    font-size: 10px;
+  }
+  .parent{
+    gap: 5px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .benefits-section {
+    gap: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .parent{
+    gap: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}

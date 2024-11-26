@@ -1,0 +1,9 @@
+.banner{
+  padding: 0px 110px 30px 110px;
+}
+@media (max-width: 1200px) {
+  .banner {
+   padding-right:0px;
+   padding-left:0px;
+  }
+}

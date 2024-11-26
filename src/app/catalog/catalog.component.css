@@ -1,0 +1,42 @@
+#catalog{
+padding:30px 110px 60px 110px;
+
+}
+@media (max-width: 900px) {
+  .catalog {
+   padding-right:0px;
+   padding-left:0px;
+  }
+  .button{
+
+  }
+}
+
+.name-price-details{
+  padding:0px 15px 0px 15px;
+
+}
+
+.price-details{
+  display:flex;
+  justify-content: space-between;
+}
+
+.button{
+ text-decoration:none;
+ border:1px solid #318CE7;
+ border-radius:2px;
+ height:30px;
+ width: 100px;
+ text-align:center;
+ padding-top:3px;
+}
+
+.button:hover {
+  color:white;
+  background-color:#318CE7;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
